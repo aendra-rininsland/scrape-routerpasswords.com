@@ -1,0 +1,13 @@
+{
+  "name": "router-passes",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node --harmony index.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "d3-dsv": "^1.0.3",
+    "nightmare": "^2.8.1"
+  }
+}
