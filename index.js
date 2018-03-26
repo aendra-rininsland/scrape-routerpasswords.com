@@ -14,7 +14,7 @@ async function processQueue() {
 						return v.getAttribute('value');
 					});
 			});
-		for (let i = 0; i < 3; i++) {
+		for (let i = 0; i < models.length; i++) {
 			console.log(`Processing ${models[i]}`);
 
 			data[models[i]] = await nightmare
